@@ -1,6 +1,6 @@
 # XSSLab [Not finished yet, it's under development]
 
-XSSLab is a vulnerable website coded By Mahdi Jaber or "Mr MJT" {in digital world}..
+XSSLab is a vulnerable website coded By Mahdi Jaber "Mr MJT"{in digital world}..
 
 By XSSLab you can improve your web hacking skills,You can practice finding xss vulnerability for free..
 
