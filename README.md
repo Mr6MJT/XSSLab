@@ -20,6 +20,6 @@ $~ cd XSSLab
 
 $~ service apache2 start
 
-Then open your browser,type: 127.0.0.1 and click on XSSLab folder then index.php
+Then open your browser,type: 127.0.0.1 and click on XSSLab folder then index.html
 
 # ENJOY HACKING :)
