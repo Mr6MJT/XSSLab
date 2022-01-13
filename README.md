@@ -8,7 +8,7 @@ I will continue developing XSSLab,I will make hard levels for pro web pentesters
 
 # Host it :
 
-You can local host this Lab by apache webserver (linux & windows) for free,follow these steps to host a website by apache2 on linux:
+You can local host this website by apache webserver (linux & windows) for free,follow these steps to host a website by apache2 on linux:
 
 $~ sudo su
 
