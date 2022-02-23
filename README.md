@@ -1,4 +1,4 @@
-# XSSLab [Not finished yet, it's under development]
+<!-- # XSSLab [Not finished yet, it's under development]
 
 XSSLab is a vulnerable website coded By Mahdi Jaber "Mr MJT" {in digital world}..
 
@@ -23,3 +23,4 @@ $~ service apache2 start
 Then open your browser,type: 127.0.0.1 and click on XSSLab folder then index.html
 
 # ENJOY HACKING :)
+-->
