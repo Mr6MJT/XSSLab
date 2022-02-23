@@ -1,0 +1,125 @@
+
+<html>
+<body>
+
+
+
+<!-- css -->
+<style>
+
+* {
+
+	font-family:serif
+}
+
+body {
+	background-color: black;
+	margin: 0%;
+}
+.header {
+	background-color: red;
+	padding: 2;
+}
+.header h3 {
+	padding: 0 100px;
+	color: red;
+	font-weight: bold;
+	font-size: 30px;
+	transition: font-size 2s;
+	animation-name: x;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-delay: 1s;
+}
+.header h3:hover {
+	font-size: 35px;
+}
+@keyframes x {
+	from{color: red}
+	to{color: black}
+}
+
+.acc {
+	width: 100%;
+	background-color: black;
+}
+.acc a {
+	float: right;
+	padding: 5 20px;
+	font-size: 24px;
+	background-color: black;
+}
+.acc a:hover {
+	background-color: grey;
+}
+
+.d {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 25px;
+	color:white;
+	transition: font-size 2s;
+}
+
+
+.d:hover {
+	font-size: 30;;
+}
+
+
+@media only screen and (min-width: 600px) {
+	
+	.header {
+		background-color: red;
+	}
+	.header h3 {
+		font-size: 50px;
+	}
+	.acc a {
+		padding: 10 60px;
+	}
+	button {
+		width: 160%;
+		height: 3%;
+	}
+	.levels a {
+		padding: 10px;
+		font-size: 50px;
+	}
+
+	.acc button {
+		text-align: center;
+	}
+}
+</style>	
+
+
+
+<!-- html -->
+<div class="header">
+	<h3>XSSLab Coded By Mr MJT 'Mahdi Jaber'</h3>
+</div>
+<div class="acc">
+	<a href="https://github.com/Mr6MJT" target="_blank"><button><h1>GitHub</h1></button></a>
+	<a href="https://hackerone.com/mahdi_jaber" target="_blank"><button><h1>Hacker1</h1></button></a>
+</div>
+<br>
+<br>
+<br>
+
+<br>
+<div class="levels">
+<a href="level1.html" target="_blank" class="d">>>Level One</a>
+<a href="#" target="_blank" class="d">>>Level Two</a>
+<a href="#" target="_blank" class="d">>>Level Two</a>
+<a href="#" target="_blank" class="d">>>Level Three</a>
+<a href="#" target="_blank" class="d">>>Level Four</a>
+<a href="#" target="_blank" class="d">>>Level Five</a>
+<a href="#" target="_blank" class="d">>>Level Six</a>
+<a href="#" target="_blank" class="d">>>Level Seven</a>
+<a href="#" target="_blank" class="d">>>Level Eight</a>
+</div>
+</body>
+</html>
