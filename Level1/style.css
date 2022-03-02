@@ -1,0 +1,94 @@
+body {
+	background-color: black;
+}
+
+.welc{
+	width: 100%;
+	color: red;
+	font-family: 'Courier New', Courier, monospace;
+	padding: 20px;
+	display: inline;
+	text-shadow: 1px 1px white;
+	text-align: center;
+}
+
+.gallery {
+	margin: 50px;
+
+}
+img {
+	width: 600px;
+	height: 400px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: white;
+	opacity: 0.4;
+}
+img:hover {
+	border-color: red;
+	opacity: 1;
+}
+p {
+	color: white;
+	font-size: 50px;
+}
+
+.footer {
+	margin: 70px 0 0;
+	background-color: red;
+	padding: 10px 50px 20px;
+	background-attachment: fixed;
+}
+
+.cdd {
+	display: inline;
+}
+.g {
+	padding: 0 100px;
+	font-size: 32px;
+	color: black;
+	font-weight: bold;
+	text-shadow: 1px 1px bisque;
+	text-decoration: none;
+}
+
+a:hover {
+	font-size: 34px;
+	color: green;
+}
+::selection {
+	background-color: grey;
+	color: black
+}
+
+@media screen and (min-width: 0) and (max-width: 768px) {
+	body {
+		background-color: black;
+	}
+	.welc {
+		width: 100%;
+		color: red;
+		font-family: 'Courier New', Courier, monospace;
+		padding: 0;
+		text-align: center;
+	}
+
+	img {
+		width: 350px;
+		height: 200px;
+
+	}
+	.g {
+		padding: 0 100px;
+		font-size: 26px;
+		color: black;
+		font-weight: bold;
+		text-shadow: 1px 1px bisque;
+		text-decoration: none;
+	}
+	
+	a:hover {
+		font-size: 30px;
+		color: green;
+	}
+}
