@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+}
+div {
+    width: 30%;
+    height: 30%;
+    padding: 10px;
+    margin: 20% 60%;;
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+}
+input, button {
+    width: 95%;
+    height: 20%;
+    margin: 2px;
+}
+input:hover {
+    background-color: #e8effa;
+}
+
+#s {
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 30px;
+    color: white;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+    div {
+        font-size: x-large;
+        width: 80%;
+        font-weight: bold;
+        height: 50%;
+        padding: 10px;
+        margin: 20% 10%;
+        border-width: 1px;
+        border-color: grey;
+        border-style: solid;
+    }
+
+
+    input, button {
+        width: 90%;
+        height: 10%;
+        margin: 5px;
+        font-size: large;
+        font-weight: bold;
+    }
+}
