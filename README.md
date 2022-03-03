@@ -2,7 +2,7 @@
 
 XSSLab is a vulnerable website <b> coded by Mr MJT </b>
 
-You can practice finding and exploiting Cross Site Scripting vulnerability [XSS] in this Lab in order to improve your hacking skills.
+You can practice finding and exploiting Cross Site Scripting vulnerability [XSS] in this Lab,In order to improve your hacking skills.
 
 # How It works..?
 
