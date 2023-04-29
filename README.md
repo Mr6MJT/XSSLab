@@ -7,9 +7,7 @@ You can practice finding and exploiting Cross Site Scripting vulnerability [XSS]
 
 # How It works..?
 
-The website ask the user for input,And after that it prints what the user entered.
-
-<a href="#"><b>Level One</b></a>
+The website ask the user for input(The input is vulnerable), And after that it prints what the user entered.
 
 # The Lab not finished yet,It's under development
 
