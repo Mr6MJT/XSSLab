@@ -1,0 +1,135 @@
+<html>
+<body>
+<!-- css -->
+<style>
+* {
+
+	font-family:serif
+}
+
+body {
+	background-color: black;
+	margin: 0%;
+}
+
+.header {
+	background-color: red;
+	padding: 2;
+}
+
+.header h3 {
+	padding: 0 100px;
+	color: red;
+	font-weight: bold;
+	font-size: 50px;
+	transition: font-size 2s;
+	animation-name: x;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-delay: 1s;
+}
+
+.header h3:hover {
+	font-size: 55px;
+}
+
+@keyframes x {
+	from{color: red}
+	to{color: black}
+}
+
+.acc {
+	width: 100%;
+	background-color: black;
+}
+	
+.acc a {
+	float: right;
+	padding: 5 20px;
+	font-size: 24px;
+	background-color: black;
+}
+
+.d {
+	display: block;
+	padding: 20px 30px;
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 400px;
+	color:white;
+}
+	
+.d:hover {
+	color: red;
+}
+
+@media only screen and (min-width: 600px) {
+	
+	.header {
+		background-color: red;
+	}
+	
+	.header h3 {
+		font-size: 50px;
+	}
+
+	.acc a {
+		padding: 10 60px;
+	}
+	
+	button {
+		text-align: center;
+		width: 160%;
+		height: 3%;
+		transition: width, height 2s;
+	}
+	
+	button:hover {
+		width: 160%;
+		height: 3%;
+	}
+	
+	.levels a {
+		font-size: 30px;
+		transition: font-size 1s;
+	}
+	}
+	
+@media only screen and (min-width: 1200px) {
+	.header h3 {
+		font-size: 30px;
+	}
+
+	button {
+		width: 180%;
+		height: 10%;
+	}
+	
+	button:hover {
+		width: 180%;
+		height: 10%;
+	}
+	
+	.levels h1 {
+		font-size: 30px;
+	}
+}
+}
+</style>	
+
+
+
+<!-- html -->
+<div class="header">
+	<h3>XSSLab Coded By Mr MJT 'Mahdi Jaber'</h3>
+</div>
+<div class="acc">
+	<a href="https://github.com/Mr6MJT" target="_blank"><button><h1>GitHub</h1></button></a>
+	<a href="https://www.instagram.com/__mahdi.jaber__/" target="_blank"><button><h1>Instagram</h1></button></a>
+</div>
+<br><br><br><br>
+<div class="levels">
+<a href="Level1/index.html" target="_blank" class="d"><h1>>>Level One</h1></a>
+</div>
+</body>
+</html>
