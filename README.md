@@ -1,6 +1,7 @@
  # What is XSSLab..?
 
 XSSLab is a vulnerable website <b> coded by Mr MJT </b>
+20 April 2022
 
 You can practice finding and exploiting Cross Site Scripting vulnerability [XSS] in this Lab,In order to improve your hacking skills.
 
